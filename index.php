@@ -14,7 +14,7 @@
     $stmt->execute();
 
     foreach($stmt as $key=>$val){
-        echo '<img src="/images'.$val['lien'].'" alt="logo" width="800"
+        echo '<img src="/images/'.$val['lien'].'" alt="logo" width="800"
      height="400" ></br>';
     }
 
